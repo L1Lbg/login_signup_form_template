@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link defer rel="stylesheet" href="signup.css">
+</head>
+<body>
+    
+    <div id="signup-container">
+        <div id="logo-container">
+            <img id='logo' src="media/logo.jpg" alt="" id="logo">
+        </div>
+        <form method='POST' action="*">
+            <div id="username-form-container">
+                <label for="username">Username</label><br>
+                <div class="input-img-container">
+                    <input placeholder='Enter your username' type="text" name="username" value='' id="username-input">
+                    <img src="media/user.png" id="username-img" class="tiny-img"></img>
+                </div>
+            </div>
+            <br>
+            <div id="email-form-container">
+                <label for="email">Email</label><br>
+                <div class="input-img-container">
+                    <input placeholder='Enter your email' type="text" name="email" value='' id="email-input">
+                    <img src='media/email.png' id="email-img" class="tiny-img"></img>
+                </div>
+            </div>
+            <br>
+            <div id="password-form-container">
+                <label id='password-label' for="password">Password</label><br>
+                <div class="input-img-container">
+                    <input type="password" placeholder='Enter your password' name="password" value='' d="password-input">
+                    <img src="media//lock.png" alt="" id="password-img" class="tiny-img">
+                </div>
+            </div>
+            <br>
+            <div id="re-password-form-container">
+                <label id='re-password-label' for="re-password">Re-Enter</label><br>
+                <div class="input-img-container">
+                    <input type="password" placeholder='Re-Enter your password' name="re-password" value='' id="re-password-input">
+                    <img src="media/double-check.png" alt="" id="re-password-img" class="tiny-img">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div id="tc-container">
+                <label id='tc-label' for="tc">Accept to <a href="terms-and-conditions"> terms and conditions </a></label>
+                <input id='tc-checkbox' style='width:5%' type="checkbox" name="tc">
+            </div>
+            <br>
+            <input type="submit" id='submit-input' value="Sign Up">
+        </form>
+        <br>
+        <hr>
+        <br>
+
+        <div id="create-account-container">
+            <div>Already have an account?</div>
+            <a href="login.html">Login !</a>
+        </div>
+        
+    </div>    
+    
+</body>
+</html>

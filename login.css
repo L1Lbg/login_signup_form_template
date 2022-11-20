@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+/* BODY ELEMENTS */
+body {
+  margin: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  background: linear-gradient(to right, blue, purple);
+}
+input {
+  background: rgba(128, 128, 128, 0.5);
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 3px;
+  width: 80%;
+  transition: 0.5s;
+}
+input:focus {
+  outline: none;
+}
+hr {
+  color: rgba(255, 255, 255, 0.466);
+}
+a {
+  color: white;
+}
+img {
+  transition: 1.5s;
+  width: 20px;
+}
+/* ----------------------------------------------------- */
+
+/* CLASSES */
+.input-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 5px;
+  margin-top: 5px;
+  flex-direction: row-reverse;
+}
+/* ----------------------------------------------------- */
+
+/* IDS */
+#login-container {
+  background-color: rgba(128, 128, 128, 0.432);
+  border-radius: 15px;
+  padding: 20px;
+  width: 50vw;
+  max-width: 400px;
+  min-width: 246px;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  position: relative;
+}
+#login-container::before {
+  border-radius: 15px;
+  position: absolute;
+  content: "";
+  width: 55vw;
+  max-width: 450px;
+  min-width: 294px;
+  background-color: rgba(10, 0, 100, 0.233);
+  transform: rotate(-5deg);
+  inset: 0;
+  z-index: -1;
+}
+#username-input:hover ~ #username-img {
+  transform: rotate(360deg);
+}
+#password-input:hover ~ #password-img {
+  transform: rotate(360deg);
+}
+#remember-me-checkbox:hover{
+  cursor: pointer;
+}
+#logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#logo {
+  opacity:0.5; 
+  width:20vw
+}
+#create-account-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#submit-input {
+  width: 20%;
+}
+#submit-input:hover {
+  outline: solid 1px;
+}
+/* ----------------------------------------------------- */
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link defer rel="stylesheet" href="login.css">
+</head>
+<body>
+    
+    <div id="login-container">
+        <div id="logo-container">
+            <img id='logo' src="media/logo.jpg" alt="" id="logo">
+        </div>
+        <form method="POST" action="*">
+            <div id="username-form-container">
+                <label for="username">Username</label><br>
+                <div class="input-img-container">
+                    <input placeholder='Enter your username' type="text" name="username" value='' id="username-input">
+                    <img src='media/user.png' id="username-img" class="tiny-img"></img>
+                </div>
+            </div>
+            <br>
+            <div id="password-form-container">
+                <label id='password-label' for="password">Password</label><br>
+                <div id='input-img-container-password' class="input-img-container">
+                    <input type="password" placeholder='Enter your password' name="password" value='' id="password-input">
+                    <img src="media/lock.png" alt="" id="password-img" class="tiny-img">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div id="remember-me-container">
+                <label id='remember-me-label' for="remember-me">Remember me</label>
+                <input id='remember-me-checkbox' style='width:5%' type="checkbox" value='' name="remember-me">
+            </div>
+            <br>
+            <input id='submit-input' type="submit" value="Login">
+        </form>
+        
+        <br>
+        <hr>
+        <br>
+
+        <div id="create-account-container">
+            <div>Don't have an account?</div>
+            <a href="signup.html">Sign up !</a>
+        </div>
+        
+    </div>    
+    
+</body>
+</html>
